@@ -1,0 +1,165 @@
+
+
+@media (max-width: 1200px) {
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+
+
+  }
+
+
+
+
+  #travel {
+    .travel {
+      &--block-one {
+        width: 100%;
+      }
+
+      &--block-two {
+
+        width: 100%;
+
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  #travel .travel--block-one__left--content {
+    padding: 20px 48px;
+  }
+  #travel .travel--block-one__left--top {
+    padding: 8px 10px;
+  }
+  #travel .travel--block-two__right--content {
+    padding: 20px 30px;
+  }
+  #travel .travel--block-two__right--bottom {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+  }
+  #slid .slid {
+    zoom: 80%;
+  }
+  #question .question--right details {
+    width: 610px;
+  }
+
+  #travel .travel--block-one {
+    width: 100%;
+  }
+  #travel .travel--block-two {
+
+  }
+}
+
+@media (max-width: 992px) {
+  #travel .travel--block-one__left--content {
+    padding: 8px 32px;
+  }
+  #travel .travel--block-two__right--content {
+    padding: 15px 18px;
+  }
+  #travel .travel--block-two__right--bottom {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+  }
+  #about .about--right__image img {
+    width: 41%;
+  }
+  #about .about--right {
+    width: 77%;
+  }
+  #about .about {
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #travel .travel--block-one {
+    width: 57%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 704px;
+  }
+  #travel .travel--block-two {
+    width: 57%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 733px;
+  }
+
+  #footer .footer--group {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    display: none;
+
+  }
+  .mobile-menu {
+    display: block;
+  }
+  #travel .travel--block-one {
+    width: 74%;
+
+  }
+  #travel .travel--block-two {
+    width: 74%;
+  }
+  #slid .slid {
+    zoom: 61%;
+  }
+  #accordion .accordion--general__group details {
+    width: 100%;
+  }
+  #question .question--right details {
+    width: 100%;
+  }
+  #window .window--modal__bg--square {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  #home .home--blocks {
+    position: absolute;
+    width: 20%;
+    height: 160px;
+    left: 27px;
+    display: flex;
+    flex-direction: column;
+  }
+  #accordion .accordion--general__group details {
+    width: 90%;
+  }
+}
+
+@media (max-width: 451px) {
+
+}
+
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
